@@ -1,0 +1,1320 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.2.1 (Build 20D74)
+Darwin version:          20.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1/Desktop/2D game kit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58059
+Successfully changed project path to: /Users/game1/Desktop/2D game kit
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game1/Desktop/2D game kit
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1/Desktop/2D game kit/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: AMD Radeon Pro 5500 XT OpenGL Engine
+Vendor:   ATI Technologies Inc.
+Version:  4.1 ATI-4.2.15
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
+L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -1551415296
+Initialize mono
+Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000435 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 51.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (38ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 50.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.029480 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.052894 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2682 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 247.0 MB.
+System memory in use after: 246.3 MB.
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 3143.
+Total: 2.972443 ms (FindLiveObjects: 0.201517 ms CreateObjectMapping: 0.116233 ms MarkObjects: 2.202401 ms  DeleteObjects: 0.451618 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolJump.ogg
+  artifactKey: Guid(b1db6b09fbe3492468d14d87760f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolJump.ogg using Guid(b1db6b09fbe3492468d14d87760f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c725805d70176b7c3cde87619baaed') in 0.335913 seconds 
+  Import took 0.343486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOff01.ogg
+  artifactKey: Guid(708d7e97e747f014f9627252f83fd53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOff01.ogg using Guid(708d7e97e747f014f9627252f83fd53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7c90b584e0b0d52c30e100d149fc6f') in 0.006684 seconds 
+  Import took 0.011232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/2ndInfoPoint01.ogg
+  artifactKey: Guid(c5e2735077e1fcb44bc949c68d491de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/2ndInfoPoint01.ogg using Guid(c5e2735077e1fcb44bc949c68d491de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4796bf9ba56cbde67031d70f7dba93') in 0.006523 seconds 
+  Import took 0.010457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/DestructableWall02.ogg
+  artifactKey: Guid(3698c001a4b99aa43aa3750a1c33b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/DestructableWall02.ogg using Guid(3698c001a4b99aa43aa3750a1c33b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a87f28cb882001d0c70e0f12d440ed') in 0.005406 seconds 
+  Import took 0.008682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerImpact02.ogg
+  artifactKey: Guid(c28334551fdb04394a0210c6a32071cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerImpact02.ogg using Guid(c28334551fdb04394a0210c6a32071cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f1f4876c5242ccdd30f57c383e17bb') in 0.005892 seconds 
+  Import took 0.009387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepLand.ogg
+  artifactKey: Guid(ea217dc637f73b649a2866febb99c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepLand.ogg using Guid(ea217dc637f73b649a2866febb99c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51038ff512a28b43c36ba077364bd08') in 0.008217 seconds 
+  Import took 0.011611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDefeatedSting2.ogg
+  artifactKey: Guid(a5c71d82307ccf942892b3c4e022cfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDefeatedSting2.ogg using Guid(a5c71d82307ccf942892b3c4e022cfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91047806d4112a26f840188a921cd98e') in 0.005504 seconds 
+  Import took 0.008836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack04.ogg
+  artifactKey: Guid(6b428d6a2a5cddd4cb167561aca4ffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack04.ogg using Guid(6b428d6a2a5cddd4cb167561aca4ffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1c4449a75f265ba1ef6182d3ad71d6') in 0.005738 seconds 
+  Import took 0.009185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterWalk.ogg
+  artifactKey: Guid(375894471eb62624ca57c2d1d95eada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterWalk.ogg using Guid(375894471eb62624ca57c2d1d95eada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcee4d5231f70eb78941b111b3e5fa8') in 0.007879 seconds 
+  Import took 0.011435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/1stInfoPoint02.ogg
+  artifactKey: Guid(d1ee323d49788f5498c564a3da6a5a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/1stInfoPoint02.ogg using Guid(d1ee323d49788f5498c564a3da6a5a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a39da158bcde2a11a1598735461d28') in 0.005659 seconds 
+  Import took 0.009448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerLightningAttack.ogg
+  artifactKey: Guid(e2dfd7d14d2c3a048b04b6bbc87c8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerLightningAttack.ogg using Guid(e2dfd7d14d2c3a048b04b6bbc87c8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7330061195fa4592b971f280d5e2ef') in 0.007654 seconds 
+  Import took 0.012120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep02.ogg
+  artifactKey: Guid(ccb3ad8b5906ef14d921491eb8be7e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep02.ogg using Guid(ccb3ad8b5906ef14d921491eb8be7e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d12a3d9890c78219b862303dd8e931') in 0.005705 seconds 
+  Import took 0.009981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathBlueFXTriggered.ogg
+  artifactKey: Guid(27fa7a32ddc541749b7163bd88fbb575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathBlueFXTriggered.ogg using Guid(27fa7a32ddc541749b7163bd88fbb575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1624e5c808ba529ddb58b65a506e77cb') in 0.007446 seconds 
+  Import took 0.011916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/WeaponsPickUp01.ogg
+  artifactKey: Guid(47ff70fd734dcc34791e62c50ac96401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/WeaponsPickUp01.ogg using Guid(47ff70fd734dcc34791e62c50ac96401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a9a32ab67ca186ae31584c0bfe24ce') in 0.006463 seconds 
+  Import took 0.010534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeCountdown.ogg
+  artifactKey: Guid(12b5dc2a7ea79b74db155afe3cf286db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeCountdown.ogg using Guid(12b5dc2a7ea79b74db155afe3cf286db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b505d9a32197df3ac20c08b9a07341') in 0.007453 seconds 
+  Import took 0.012789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/SmallStoneDoorOpen.ogg
+  artifactKey: Guid(cb156046599a9b64286ca926520b9da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/SmallStoneDoorOpen.ogg using Guid(cb156046599a9b64286ca926520b9da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ab3804fdf9164bc603ea5d5b6ca670') in 0.006001 seconds 
+  Import took 0.010956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack04.ogg
+  artifactKey: Guid(81448fec9f15a4b5c87004cff6ad1d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack04.ogg using Guid(81448fec9f15a4b5c87004cff6ad1d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe56550678ba487fdfbac6937813faaf') in 0.008857 seconds 
+  Import took 0.013287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOn02.ogg
+  artifactKey: Guid(d3681ea1535ddf943b8da17b201abc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOn02.ogg using Guid(d3681ea1535ddf943b8da17b201abc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03139e6795410ca7816c1e5ba39a08b5') in 0.006492 seconds 
+  Import took 0.010253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitCharge01.ogg
+  artifactKey: Guid(4b8d4ebe1b9c5a8429428fe7c8842b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitCharge01.ogg using Guid(4b8d4ebe1b9c5a8429428fe7c8842b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4562c62e0375813d537631775388d67e') in 0.006469 seconds 
+  Import took 0.010034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/MovingPlatformLoop.ogg
+  artifactKey: Guid(eab9a0a14da60e849adb421b97581aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/MovingPlatformLoop.ogg using Guid(eab9a0a14da60e849adb421b97581aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef75f13e9244e97110ddeda2f881065d') in 0.006076 seconds 
+  Import took 0.009913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/PushClayBoxEnd.ogg
+  artifactKey: Guid(363b1e9e5a7b00c42b3b4400865d45d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/PushClayBoxEnd.ogg using Guid(363b1e9e5a7b00c42b3b4400865d45d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92778772c44fd6a840674918f4b0840b') in 0.005973 seconds 
+  Import took 0.009985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOn01.ogg
+  artifactKey: Guid(95c315eb396f33944a5fd98164d969a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOn01.ogg using Guid(95c315eb396f33944a5fd98164d969a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a816c7ced1184d976cf87e9a5c03f33') in 0.005930 seconds 
+  Import took 0.009487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep01.ogg
+  artifactKey: Guid(f88a98c1eaf3d904d86d1e8f85e249ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep01.ogg using Guid(f88a98c1eaf3d904d86d1e8f85e249ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c175076c7934b6d5cb4f30536b65bd9') in 0.005831 seconds 
+  Import took 0.009423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolLoop.ogg
+  artifactKey: Guid(3c9a4144f5db2c144a020c42598b4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolLoop.ogg using Guid(3c9a4144f5db2c144a020c42598b4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5080e995590ccc7d05fe2fe76d0b28b6') in 0.005305 seconds 
+  Import took 0.009043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2DGamekit/Audio/Environment/EnvironmentalAmbiance.ogg
+  artifactKey: Guid(3a9ba69f03694d44a9968f5b7c4abb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/EnvironmentalAmbiance.ogg using Guid(3a9ba69f03694d44a9968f5b7c4abb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2961fac91fe35dfab12ebff05f54032') in 0.005519 seconds 
+  Import took 0.008899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/SpaceShotgun.ogg
+  artifactKey: Guid(bb1f878fc28034454b87b03dca70c85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/SpaceShotgun.ogg using Guid(bb1f878fc28034454b87b03dca70c85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba27dbc59055c305e5cecd887cbccd0a') in 0.006320 seconds 
+  Import took 0.010054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathAll02.ogg
+  artifactKey: Guid(d7d2b5c4d1909864a8e0bb38b2cae870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathAll02.ogg using Guid(d7d2b5c4d1909864a8e0bb38b2cae870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f903a59c62135902f2c342b08e0752') in 0.005651 seconds 
+  Import took 0.008951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack01.ogg
+  artifactKey: Guid(c539814be01106547adfb69ffbf92813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack01.ogg using Guid(c539814be01106547adfb69ffbf92813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546b20d8caccbd0a92f1c942a9b505f5') in 0.005530 seconds 
+  Import took 0.009415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerLaserFire.ogg
+  artifactKey: Guid(d6c663904e1c2b64ca9014c32c3775cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerLaserFire.ogg using Guid(d6c663904e1c2b64ca9014c32c3775cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92c04171d78c9c08171497dd08dd59f') in 0.006201 seconds 
+  Import took 0.010030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortMedium01.ogg
+  artifactKey: Guid(d50f2e0626e662041aa8a2ff5f8ebcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortMedium01.ogg using Guid(d50f2e0626e662041aa8a2ff5f8ebcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66463d11ec228acbda151e52d1e1cc1d') in 0.005013 seconds 
+  Import took 0.008300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButtonStart.ogg
+  artifactKey: Guid(a4dc23583fb1dc84a89049f88b06efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButtonStart.ogg using Guid(a4dc23583fb1dc84a89049f88b06efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10de18406aea82a5b4211f84dabeac82') in 0.005658 seconds 
+  Import took 0.009468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone03.ogg
+  artifactKey: Guid(173bc4e8efe4f674cb223e3e5581c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone03.ogg using Guid(173bc4e8efe4f674cb223e3e5581c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f979da81335ed57b3c5714fec7bdc27') in 0.005616 seconds 
+  Import took 0.009537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/LargeStoneDoorClose.ogg
+  artifactKey: Guid(7becb89340f2f17449ac17e519d0fdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/LargeStoneDoorClose.ogg using Guid(7becb89340f2f17449ac17e519d0fdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c3360110f4ce7f5ec90a17ff0e42dc') in 0.005848 seconds 
+  Import took 0.009534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortSmall01.ogg
+  artifactKey: Guid(6b6f919b655318a469cb53dcc1712340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortSmall01.ogg using Guid(6b6f919b655318a469cb53dcc1712340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe1d697520993774fcadf56cba9b8e2') in 0.005015 seconds 
+  Import took 0.008571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerLaserLoop.ogg
+  artifactKey: Guid(719f226d2683db8479bfd6a6897574a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerLaserLoop.ogg using Guid(719f226d2683db8479bfd6a6897574a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30598862e8ef5875d344aa4e2b3c330') in 0.005729 seconds 
+  Import took 0.009380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle03.ogg
+  artifactKey: Guid(410d6e072c4707340a8533a6df8f3c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle03.ogg using Guid(410d6e072c4707340a8533a6df8f3c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c054f5e7f45af3836984607ff5201cd9') in 0.005752 seconds 
+  Import took 0.009486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack03.ogg
+  artifactKey: Guid(328365d0fef474487b0826fc1049de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack03.ogg using Guid(328365d0fef474487b0826fc1049de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37e1d17ac4e2ed7eb10567e4e04e696') in 0.005873 seconds 
+  Import took 0.009360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack01.ogg
+  artifactKey: Guid(3b22d074ce52fbe4fbdf5fb62973ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack01.ogg using Guid(3b22d074ce52fbe4fbdf5fb62973ab94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18702e337d1afc4a54ca85fb0f6062cd') in 0.005468 seconds 
+  Import took 0.008996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOff02.ogg
+  artifactKey: Guid(730ed1450fec4f84ebf9f40f5b135fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldOff02.ogg using Guid(730ed1450fec4f84ebf9f40f5b135fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba68118822ffa74530415138899f190') in 0.005873 seconds 
+  Import took 0.009220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun01.ogg
+  artifactKey: Guid(bce7946d519b97049bcdf6d38e497156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun01.ogg using Guid(bce7946d519b97049bcdf6d38e497156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff14f7702e8390e8d5dc281c46b06600') in 0.005918 seconds 
+  Import took 0.009623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/HealthPickup.ogg
+  artifactKey: Guid(8d331b50969371c4db3319a915ef2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/HealthPickup.ogg using Guid(8d331b50969371c4db3319a915ef2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c6795f56ce72b45d00b6e7f3039eb8') in 0.005779 seconds 
+  Import took 0.009486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerElectricityLoop.ogg
+  artifactKey: Guid(1c9631f65d1604716b0c353481b2f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerElectricityLoop.ogg using Guid(1c9631f65d1604716b0c353481b2f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319bc42ece879391ff6d1e018ff9b6ab') in 0.005843 seconds 
+  Import took 0.009564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathAll01.ogg
+  artifactKey: Guid(400c44a256b5eeb46897fd93bd481a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathAll01.ogg using Guid(400c44a256b5eeb46897fd93bd481a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fa417510af598951a0d92e61c51dab') in 0.005844 seconds 
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/DestructableWall01.ogg
+  artifactKey: Guid(1300167911a825e4f8920368b94bb0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/DestructableWall01.ogg using Guid(1300167911a825e4f8920368b94bb0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1cd97a261ddeb2ed7a89d90a6bb75d') in 0.005624 seconds 
+  Import took 0.008728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2DGamekit/Audio/Music/MusicGunnerFight.ogg
+  artifactKey: Guid(f7d80757580ebf14287ba18254f7fe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Music/MusicGunnerFight.ogg using Guid(f7d80757580ebf14287ba18254f7fe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19db497a3a582738f828e782309da4b9') in 0.006157 seconds 
+  Import took 0.010037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Chomper/ChomperFootstep02.ogg
+  artifactKey: Guid(e3e14f5214ce41a49956b747e78f4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Chomper/ChomperFootstep02.ogg using Guid(e3e14f5214ce41a49956b747e78f4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdd988b1f93193abd5f0d81a866e6ef') in 0.005517 seconds 
+  Import took 0.009095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/LargeStoneDoorOpen.ogg
+  artifactKey: Guid(1a7710861fe86484fb73f4131c5bb3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/LargeStoneDoorOpen.ogg using Guid(1a7710861fe86484fb73f4131c5bb3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a300caaa08baf56c8de53110e8d13293') in 0.005940 seconds 
+  Import took 0.009756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/2ndInfoPoint02.ogg
+  artifactKey: Guid(88b4c1455b93da647be238d44b98186e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/2ndInfoPoint02.ogg using Guid(88b4c1455b93da647be238d44b98186e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e0bb2a1e3a300c962ee0dfd3446ab8') in 0.005566 seconds 
+  Import took 0.009221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep03.ogg
+  artifactKey: Guid(88cf4c38c64a7b84f88a54036e698825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep03.ogg using Guid(88cf4c38c64a7b84f88a54036e698825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327f1d4068cd778cf3e1f5ffe53519c7') in 0.005409 seconds 
+  Import took 0.008993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone04.ogg
+  artifactKey: Guid(e281a04ebe0d51140b84708ae79a756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone04.ogg using Guid(e281a04ebe0d51140b84708ae79a756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5379b4765051246bad027bc1bfca63c') in 0.005567 seconds 
+  Import took 0.009172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone01.ogg
+  artifactKey: Guid(4d02d075426b22b44bbdb5c1fd065ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone01.ogg using Guid(4d02d075426b22b44bbdb5c1fd065ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171b4fda081a6de9ccaa4787bcd4e5eb') in 0.005287 seconds 
+  Import took 0.008605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep04.ogg
+  artifactKey: Guid(b5821ccd1ba51204589ff413501f15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep04.ogg using Guid(b5821ccd1ba51204589ff413501f15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e9f424c755ad181074a2424cf19e4a') in 0.005752 seconds 
+  Import took 0.009528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerIntro.ogg
+  artifactKey: Guid(d2603832e6d039844bc63540d9318489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerIntro.ogg using Guid(d2603832e6d039844bc63540d9318489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4a2461be853edfff4d637aa3638f47') in 0.005491 seconds 
+  Import took 0.009287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle02.ogg
+  artifactKey: Guid(f5e80c4c924d5a840a90639ac96be5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle02.ogg using Guid(f5e80c4c924d5a840a90639ac96be5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a094c154b5e59f1be6ec36c3a78f118') in 0.005651 seconds 
+  Import took 0.009125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack01.ogg
+  artifactKey: Guid(0df90adaf9c58f44da98df944f409163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack01.ogg using Guid(0df90adaf9c58f44da98df944f409163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b04b0fc03df4b709a890cfc3e5cc30') in 0.005572 seconds 
+  Import took 0.009442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2DGamekit/Audio/Environment/IdlingBugSwarm.ogg
+  artifactKey: Guid(8e5cc3b5c4ff0db4db464b047e971c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/IdlingBugSwarm.ogg using Guid(8e5cc3b5c4ff0db4db464b047e971c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b4e9f345a667935901f5f0f80a60c1') in 0.005684 seconds 
+  Import took 0.009281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDie.ogg
+  artifactKey: Guid(348a440d6212342409cdc06412272519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDie.ogg using Guid(348a440d6212342409cdc06412272519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982b8010b93d1a827a5dbb9983a29449') in 0.005385 seconds 
+  Import took 0.008989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle01.ogg
+  artifactKey: Guid(096c953738cd7064f872d9cd2bc0c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle01.ogg using Guid(096c953738cd7064f872d9cd2bc0c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44569a9724d7a51ff6a58fb147554bab') in 0.006433 seconds 
+  Import took 0.009968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeCountdown02.ogg
+  artifactKey: Guid(fea9dba2b0e438b4694d8ebc5aba069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeCountdown02.ogg using Guid(fea9dba2b0e438b4694d8ebc5aba069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1101c248558cb698538c92438f4834') in 0.006175 seconds 
+  Import took 0.009794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortSmall02.ogg
+  artifactKey: Guid(55cf2d6b154ee6d4e87f7f87ac724172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortSmall02.ogg using Guid(55cf2d6b154ee6d4e87f7f87ac724172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b125e94c6f203280c73ae147a629bd0e') in 0.005311 seconds 
+  Import took 0.008845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/SwitchRespawnPushableActivated.ogg
+  artifactKey: Guid(e391f1710c801204bb081b9a0eee5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/SwitchRespawnPushableActivated.ogg using Guid(e391f1710c801204bb081b9a0eee5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155ddd94aea01dc22d00ed7f61e5d9e1') in 0.005607 seconds 
+  Import took 0.009292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/SwitchActivated.ogg
+  artifactKey: Guid(335c62a6fbfebf84d821d960b0c5abaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/SwitchActivated.ogg using Guid(335c62a6fbfebf84d821d960b0c5abaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4bcd57aa682d5b1df84ea0a59e4839') in 0.005739 seconds 
+  Import took 0.009306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterRun.ogg
+  artifactKey: Guid(046c9263457dd334fa317ce58306f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterRun.ogg using Guid(046c9263457dd334fa317ce58306f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec1f5997415ae3ba1b21e58826a3d67') in 0.005300 seconds 
+  Import took 0.008709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp01.ogg
+  artifactKey: Guid(81d272f5743bdfa4ca16d1ff7c896286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp01.ogg using Guid(81d272f5743bdfa4ca16d1ff7c896286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c1f21c56d72f7e22325c9eba1fc340') in 0.005701 seconds 
+  Import took 0.009347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButton01.ogg
+  artifactKey: Guid(df6d1af64fdebb04d80a54b27b720509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButton01.ogg using Guid(df6d1af64fdebb04d80a54b27b720509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce66ed25436c63bcf0ee71b39e072e2') in 0.005758 seconds 
+  Import took 0.009575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge01.ogg
+  artifactKey: Guid(8d76c4a7797e3994eb5a27a04876b1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge01.ogg using Guid(8d76c4a7797e3994eb5a27a04876b1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a190d205fbcacaab6704301390cca6') in 0.005752 seconds 
+  Import took 0.009333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolSplash01.ogg
+  artifactKey: Guid(8be2025e3343aed4d9f0df01c1285ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolSplash01.ogg using Guid(8be2025e3343aed4d9f0df01c1285ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e073c7de4e215fdb2f7834c36b2d4c') in 0.005561 seconds 
+  Import took 0.009024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/3rdInfoPoint01.ogg
+  artifactKey: Guid(60795f46ceff1d34283b0349f0705a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/3rdInfoPoint01.ogg using Guid(60795f46ceff1d34283b0349f0705a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8021d2be2956ceba67cfbe2adf09d3c') in 0.005506 seconds 
+  Import took 0.008987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeExplode.ogg
+  artifactKey: Guid(cb321e0e67455dd4b8293e3233354bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeExplode.ogg using Guid(cb321e0e67455dd4b8293e3233354bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b71c766a11df1bced19f1072d15a9f') in 0.005645 seconds 
+  Import took 0.009314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButtonBack.ogg
+  artifactKey: Guid(88ac5fcaaded1224484b71c9811f8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButtonBack.ogg using Guid(88ac5fcaaded1224484b71c9811f8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fba04b6f7cb1a0ff03d8053fe3d60b') in 0.004957 seconds 
+  Import took 0.008018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/PushClayBoxLoop.ogg
+  artifactKey: Guid(147f688959ed7d9448f171f2fb12893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/PushClayBoxLoop.ogg using Guid(147f688959ed7d9448f171f2fb12893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2879cd611479eeb6ee4434854e01ee6') in 0.005603 seconds 
+  Import took 0.009193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack04.ogg
+  artifactKey: Guid(c5b0c76e1664a8b4ab228f31c8caddef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack04.ogg using Guid(c5b0c76e1664a8b4ab228f31c8caddef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5ba9a65b3968af235110d5e8c0bcba') in 0.005487 seconds 
+  Import took 0.008876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep01.ogg
+  artifactKey: Guid(13de3c8b19190eb488622c2982f7e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep01.ogg using Guid(13de3c8b19190eb488622c2982f7e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a879b54899a9e9615c89aded59d3e44') in 0.005277 seconds 
+  Import took 0.009178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdlev2.ogg
+  artifactKey: Guid(fbed9ebca865ab84588a1eeaf71e1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdlev2.ogg using Guid(fbed9ebca865ab84588a1eeaf71e1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a400e937fcbcea7463bb7505e884aba') in 0.005680 seconds 
+  Import took 0.009250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerImpact03.ogg
+  artifactKey: Guid(89e5072b5af9b41eea002b41cf20c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerImpact03.ogg using Guid(89e5072b5af9b41eea002b41cf20c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1be3b62cda6392281256eed768e281') in 0.005804 seconds 
+  Import took 0.009117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep04.ogg
+  artifactKey: Guid(234b586e812e70b419affbe33e30dcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstep04.ogg using Guid(234b586e812e70b419affbe33e30dcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0afaf087cc9a9d55c6c8d270609170') in 0.005795 seconds 
+  Import took 0.009167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldLoop.ogg
+  artifactKey: Guid(7a9dd341fd11cfd448b683928219a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerShieldLoop.ogg using Guid(7a9dd341fd11cfd448b683928219a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78cd9d8125a6fc61f078d8399ed56db') in 0.005942 seconds 
+  Import took 0.009221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack.ogg
+  artifactKey: Guid(626b798008ec0b44297bde1ab89110d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack.ogg using Guid(626b798008ec0b44297bde1ab89110d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcd63789580504e8990bd7297f11249') in 0.005699 seconds 
+  Import took 0.009311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive02.ogg
+  artifactKey: Guid(166e225c071129d449c9d61049c8242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive02.ogg using Guid(166e225c071129d449c9d61049c8242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d32f7038f0b6703ec246ece03279f6') in 0.005538 seconds 
+  Import took 0.009613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Chomper/ChomperFootstep01.ogg
+  artifactKey: Guid(2efac6b1f1b3cb84f8090b80da4bf152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Chomper/ChomperFootstep01.ogg using Guid(2efac6b1f1b3cb84f8090b80da4bf152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3345342b30afc1eae74fd44134d7985') in 0.005373 seconds 
+  Import took 0.008781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack02.ogg
+  artifactKey: Guid(e298ed73017db8c4fa4255c45e5a9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack02.ogg using Guid(e298ed73017db8c4fa4255c45e5a9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71f4624e3598c019833561408e5d4a4') in 0.005382 seconds 
+  Import took 0.008343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolSplash02.ogg
+  artifactKey: Guid(a1afaeb6a19ef41b4991c2c39494347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolSplash02.ogg using Guid(a1afaeb6a19ef41b4991c2c39494347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3535bb3116510086da658364a3faf0') in 0.005699 seconds 
+  Import took 0.009570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge02.ogg
+  artifactKey: Guid(6c438cd8f403270478a157682bf24456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortLarge02.ogg using Guid(6c438cd8f403270478a157682bf24456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222e12a26553671b9101e0b66cd939c2') in 0.005771 seconds 
+  Import took 0.009572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone02.ogg
+  artifactKey: Guid(fd7c2de844921164b88f6fd8ac28d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepStone02.ogg using Guid(fd7c2de844921164b88f6fd8ac28d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ffd3f6014939d665d33d08080dff9f') in 0.005207 seconds 
+  Import took 0.008566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathImpact.ogg
+  artifactKey: Guid(d1561ed3a5a60a040bc0b9be00c9f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerDeathImpact.ogg using Guid(d1561ed3a5a60a040bc0b9be00c9f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2d211c8a4d1c9d51c3c8f6c0f8cec2') in 0.005950 seconds 
+  Import took 0.009353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Chomper/ChomperDie.ogg
+  artifactKey: Guid(516604db9dbf00141b71b702c4fd79c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Chomper/ChomperDie.ogg using Guid(516604db9dbf00141b71b702c4fd79c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7587fe5de4251718175ef31089e1e7a') in 0.005214 seconds 
+  Import took 0.008570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepJump.ogg
+  artifactKey: Guid(e5cb0976ee7cf93489107ede5175519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Locomotion/EllenFootstepJump.ogg using Guid(e5cb0976ee7cf93489107ede5175519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc338613b6d36e24eb3ca00da85816d4') in 0.005361 seconds 
+  Import took 0.008560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp03.ogg
+  artifactKey: Guid(af2f749339d6d0d4b9ff920739780881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp03.ogg using Guid(af2f749339d6d0d4b9ff920739780881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e177d3d291a98239577dde69ef0f5f73') in 0.005682 seconds 
+  Import took 0.009183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2DGamekit/Audio/Environment/Shoreline.ogg
+  artifactKey: Guid(f7d2e5bd8d17f8f4ab011be5544a69b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/Shoreline.ogg using Guid(f7d2e5bd8d17f8f4ab011be5544a69b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b959d4c654421c3f2529ffe2def52348') in 0.006137 seconds 
+  Import took 0.009667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButton02.ogg
+  artifactKey: Guid(9a6c7b4eb436659439202963a40d40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButton02.ogg using Guid(9a6c7b4eb436659439202963a40d40d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc8a7a4e8426f1ff1b3f8ac689717b1') in 0.005795 seconds 
+  Import took 0.009518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/PressurePad.ogg
+  artifactKey: Guid(f911838f7d8347b47b1c821f6d3c98fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/PressurePad.ogg using Guid(f911838f7d8347b47b1c821f6d3c98fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1b71eace467c84333990fc39bea8d7') in 0.005873 seconds 
+  Import took 0.009374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/GenericPickup.ogg
+  artifactKey: Guid(d76c71e98617e1c41a5cdc490eb1bee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/GenericPickup.ogg using Guid(d76c71e98617e1c41a5cdc490eb1bee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c041808189da43c88067aa9ba69929a4') in 0.005857 seconds 
+  Import took 0.008983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep02.ogg
+  artifactKey: Guid(f64bda8dce465a34eabf62414c0cd06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep02.ogg using Guid(f64bda8dce465a34eabf62414c0cd06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a08ef9b9284604a2832d9e04589ecb') in 0.005560 seconds 
+  Import took 0.010003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack02.ogg
+  artifactKey: Guid(483e3145e94a4024382267d950e66a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack02.ogg using Guid(483e3145e94a4024382267d950e66a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a0bff00c4cb7fa3c4dc9ffdfe7317f') in 0.005961 seconds 
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/WeaponsPickUp02.ogg
+  artifactKey: Guid(0271e07a9b5751444935b83d2c447e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/WeaponsPickUp02.ogg using Guid(0271e07a9b5751444935b83d2c447e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b12d601ee30541690282f474874b7ef') in 0.005842 seconds 
+  Import took 0.009100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerSteamStage01.ogg
+  artifactKey: Guid(7cce935bf00374a3cb2adfd81ab69697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerSteamStage01.ogg using Guid(7cce935bf00374a3cb2adfd81ab69697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f099d84cb9136b961cc54d8f5fb69cf4') in 0.005598 seconds 
+  Import took 0.008856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/3rdInfoPoint02.ogg
+  artifactKey: Guid(238cbc2c7bf8e8c418c2a4ff21d05403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/3rdInfoPoint02.ogg using Guid(238cbc2c7bf8e8c418c2a4ff21d05403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cec6c473e317d28dbf06035e5c92d2') in 0.005562 seconds 
+  Import took 0.009159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeExplosion.ogg
+  artifactKey: Guid(70fd00056b92b4319be8449b9dea1eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeExplosion.ogg using Guid(70fd00056b92b4319be8449b9dea1eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f8e789e9fc67ac944927ae966ffe17') in 0.005607 seconds 
+  Import took 0.008834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack03.ogg
+  artifactKey: Guid(794ba4ea53ad9c34ba72e97fa76b793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack03.ogg using Guid(794ba4ea53ad9c34ba72e97fa76b793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c793efec38b0ae02bd332eea42e51c65') in 0.005410 seconds 
+  Import took 0.008509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeLand.ogg
+  artifactKey: Guid(69fdd2728a147734e8bc094970b72eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeLand.ogg using Guid(69fdd2728a147734e8bc094970b72eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6935aaafc55df884f02367eaf1ed6164') in 0.005663 seconds 
+  Import took 0.009261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep02.ogg
+  artifactKey: Guid(1405fff70e6be504f82af6f73e33ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep02.ogg using Guid(1405fff70e6be504f82af6f73e33ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e28aadc053cc3f404ecc20372930ab3') in 0.006218 seconds 
+  Import took 0.009556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep03.ogg
+  artifactKey: Guid(a9441c7b87d565e4ab53bf175f580072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerFootstep03.ogg using Guid(a9441c7b87d565e4ab53bf175f580072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd14f3adcade153bd25cb7d23ae6b4e') in 0.005854 seconds 
+  Import took 0.009402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive01.ogg
+  artifactKey: Guid(5e7a75cd55127a84e85c8bed1a7d272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive01.ogg using Guid(5e7a75cd55127a84e85c8bed1a7d272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6456cec8ca5a90600f8d1383d837cf89') in 0.005760 seconds 
+  Import took 0.009067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDieSplat.ogg
+  artifactKey: Guid(a297ae3d7bfe76a4eae4f7deb210e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDieSplat.ogg using Guid(a297ae3d7bfe76a4eae4f7deb210e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76a8ad98da35441be4c1c0b393556fa') in 0.005502 seconds 
+  Import took 0.008657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortMedium02.ogg
+  artifactKey: Guid(151cb0c18bcdc6040aa921203a4ca7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Emotes/EllenEmotesEffortMedium02.ogg using Guid(151cb0c18bcdc6040aa921203a4ca7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae3b831831a56a9b25cc9827879e4b6') in 0.005339 seconds 
+  Import took 0.008622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerBossDeathBlueFxBuildup.ogg
+  artifactKey: Guid(05dd0160edee8dc449f61b762c811e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerBossDeathBlueFxBuildup.ogg using Guid(05dd0160edee8dc449f61b762c811e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c551508359313bb4ffff74b70e78410d') in 0.005822 seconds 
+  Import took 0.009485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack02.ogg
+  artifactKey: Guid(442e955683fe3a44a9ec3075f9140bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Ranged/EllenRangedAttack02.ogg using Guid(442e955683fe3a44a9ec3075f9140bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84d12ac219f1f22dfcb52cecac82f1a') in 0.005882 seconds 
+  Import took 0.009250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/TeleportLoop.ogg
+  artifactKey: Guid(eb9913efb3825f3488667a73f532fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/TeleportLoop.ogg using Guid(eb9913efb3825f3488667a73f532fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da6b16d0c2bb38df3f70aa0c3cb45ac') in 0.006226 seconds 
+  Import took 0.009671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/2DGamekit/Audio/UI/MenuButtonConfirm.ogg
+  artifactKey: Guid(68c65aec95671b549be3b900cc305b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/UI/MenuButtonConfirm.ogg using Guid(68c65aec95671b549be3b900cc305b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214082bbf31e99f61e88f10be8b31b5b') in 0.005098 seconds 
+  Import took 0.008753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack02.ogg
+  artifactKey: Guid(1b46739dd2e72b043937117be94011c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Attacks/Melee/EllenMeleeAttack02.ogg using Guid(1b46739dd2e72b043937117be94011c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b017693ce5ab5e64c660d4e0dccc3be') in 0.005173 seconds 
+  Import took 0.008580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/TeleportUse.ogg
+  artifactKey: Guid(0cce91cb3c5bf814e805233571eab8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/TeleportUse.ogg using Guid(0cce91cb3c5bf814e805233571eab8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ddeea183b957a4da72f7db13581a29') in 0.005907 seconds 
+  Import took 0.009503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack03.ogg
+  artifactKey: Guid(b843fce942ecaf5408ed50f4d6129f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack03.ogg using Guid(b843fce942ecaf5408ed50f4d6129f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca9fa08b2d273559b1cdf38bcbbe2c8') in 0.005869 seconds 
+  Import took 0.009348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeLaunch.ogg
+  artifactKey: Guid(f6609dc4c074f1e47b5a0fa78aee3bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerGrenadeLaunch.ogg using Guid(f6609dc4c074f1e47b5a0fa78aee3bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263210a7991b01ee947957883fda29b6') in 0.005722 seconds 
+  Import took 0.008984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/SwitchShieldUpActivated.ogg
+  artifactKey: Guid(5efaa944cc7cece4996b86725256962b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/SwitchShieldUpActivated.ogg using Guid(5efaa944cc7cece4996b86725256962b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372201e37a07d368d75ebd2b3cc3e85f') in 0.009481 seconds 
+  Import took 0.013097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp02.ogg
+  artifactKey: Guid(b40f7bd7e2bc4524eb3885fe0ea487df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp02.ogg using Guid(b40f7bd7e2bc4524eb3885fe0ea487df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b66e741579b79d690b07355553aa755') in 0.005657 seconds 
+  Import took 0.008973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerSteamStage02.ogg
+  artifactKey: Guid(dcc30cbb6b5a14e58ab41876b74f0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerSteamStage02.ogg using Guid(dcc30cbb6b5a14e58ab41876b74f0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0501dc772110e30f8a16eb839e1624c') in 0.006866 seconds 
+  Import took 0.010099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/CrateSmash.ogg
+  artifactKey: Guid(707ed9e4e72dc5f4da4f6d6e67e3bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/CrateSmash.ogg using Guid(707ed9e4e72dc5f4da4f6d6e67e3bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3355946afbce93394310becf579d7b11') in 0.005393 seconds 
+  Import took 0.008751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Gunner/GunnerImpact01.ogg
+  artifactKey: Guid(52659b3c95dc6427c9feef7fd4624f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Gunner/GunnerImpact01.ogg using Guid(52659b3c95dc6427c9feef7fd4624f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dcf1c5a8ea112791813d81f3397ffb') in 0.005945 seconds 
+  Import took 0.009681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2DGamekit/Audio/Music/MusicGameplay.ogg
+  artifactKey: Guid(0651b56880a11ef45909b779443691aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Music/MusicGameplay.ogg using Guid(0651b56880a11ef45909b779443691aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ecaf58ba0b467a0d8a295e1a10347a') in 0.005613 seconds 
+  Import took 0.008640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack03.ogg
+  artifactKey: Guid(ca8d70067fe3e8045b1368d231e661c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack03.ogg using Guid(ca8d70067fe3e8045b1368d231e661c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1088ebbc0cda0875e17375bd9beb68d2') in 0.006134 seconds 
+  Import took 0.009870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/DoorOpening.ogg
+  artifactKey: Guid(3be171efc7758c14fbbd5d2a11f944cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/DoorOpening.ogg using Guid(3be171efc7758c14fbbd5d2a11f944cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bbc615da6d02a649966247ebae49d9') in 0.005777 seconds 
+  Import took 0.008991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive03.ogg
+  artifactKey: Guid(9b49110fde0b1c44c8ede97afef653a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive03.ogg using Guid(9b49110fde0b1c44c8ede97afef653a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c741740a50b5af4039d55f13bd703a27') in 0.005802 seconds 
+  Import took 0.009586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack01.ogg
+  artifactKey: Guid(98660f6b09ff5c0469a3601564315ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Chomper/ChomperAttack01.ogg using Guid(98660f6b09ff5c0469a3601564315ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f97852e040f24209dc651766387094f') in 0.005236 seconds 
+  Import took 0.009144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/PushClayBoxStart.ogg
+  artifactKey: Guid(5c323608730601c4997c80260a5e05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/PushClayBoxStart.ogg using Guid(5c323608730601c4997c80260a5e05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5ce512d367d78e0eceede71a40e3ed') in 0.005155 seconds 
+  Import took 0.008781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Audio/Ellen/Speech/1stInfoPoint01.ogg
+  artifactKey: Guid(3508c31c409dd5b48b718b983428ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Ellen/Speech/1stInfoPoint01.ogg using Guid(3508c31c409dd5b48b718b983428ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc22f9fa9e63cc8175e07dffd42bea4d') in 0.005338 seconds 
+  Import took 0.009021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep01.ogg
+  artifactKey: Guid(d35a0d8b3dbfb1548b7d2acf1f35e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep01.ogg using Guid(d35a0d8b3dbfb1548b7d2acf1f35e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744603532c4f1029da82384f2c940fb4') in 0.006056 seconds 
+  Import took 0.009513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun02.ogg
+  artifactKey: Guid(a95d90b9f54da644b86b94b0de023a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun02.ogg using Guid(a95d90b9f54da644b86b94b0de023a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56211dd53c5d7ad590adf89884ed966f') in 0.006025 seconds 
+  Import took 0.009377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234658 seconds.
+  path: Assets/2DGamekit/Audio/Interactables/SpikeImpact.ogg
+  artifactKey: Guid(a5406be214f159a4abfedff134037b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Interactables/SpikeImpact.ogg using Guid(a5406be214f159a4abfedff134037b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea1dd344b463b5797eebcf87a97b5ba') in 0.005359 seconds 
+  Import took 0.009238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.771108 seconds.
+  path: Assets/2DGamekit/Audio/Music/MusicDeathSting.ogg
+  artifactKey: Guid(31b2284e8ab3f244182080ca7da474b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Music/MusicDeathSting.ogg using Guid(31b2284e8ab3f244182080ca7da474b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d908b1b560ce6107ad2867462caf0d') in 0.014921 seconds 
+  Import took 0.019107 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.0 MB.
+System memory in use after: 249.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3165.
+Total: 2.661286 ms (FindLiveObjects: 0.205505 ms CreateObjectMapping: 0.120882 ms MarkObjects: 2.250018 ms  DeleteObjects: 0.084278 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1129.613050 seconds.
+  path: Assets/2DGamekit/Scenes/Start.unity
+  artifactKey: Guid(57df1e417250bc247976c2c0dc088efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Start.unity using Guid(57df1e417250bc247976c2c0dc088efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69d1a1dbb5ee394d1fa3014e2d41548') in 0.010041 seconds 
+  Import took 0.014100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.137509 seconds.
+  path: Assets/NewScene.unity
+  artifactKey: Guid(4870a4213a43f4051ac9c02eb02e85ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewScene.unity using Guid(4870a4213a43f4051ac9c02eb02e85ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf57609c43db655403c8a4906144e8') in 0.002889 seconds 
+  Import took 0.006299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.374251 seconds.
+  path: Assets/challenge.unity
+  artifactKey: Guid(a17006977c39c40f9a305040d2da9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/challenge.unity using Guid(a17006977c39c40f9a305040d2da9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6362e39f6ec51183a7b69e309f5255ee') in 0.001273 seconds 
+  Import took 0.005437 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1005ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.0 MB.
+System memory in use after: 250.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 2.627722 ms (FindLiveObjects: 0.170721 ms CreateObjectMapping: 0.093471 ms MarkObjects: 2.280850 ms  DeleteObjects: 0.082001 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
